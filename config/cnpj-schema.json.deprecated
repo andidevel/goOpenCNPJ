@@ -1,0 +1,201 @@
+[
+    {
+        "type": "1",
+        "document": {
+            "_id": {
+                "field_type": "str",
+                "position": [4, 17]
+            },
+            "id_matriz": {
+                "field_type": "int",
+                "position": [18, 18]
+            },
+            "razao_social": {
+                "field_type": "str",
+                "position": [19, 168]
+            },
+            "nome_fantasia": {
+                "field_type": "str",
+                "position": [169, 223]
+            },
+            "situacao_cadastral": {
+                "field_type": "int",
+                "position": [224, 225]
+            },
+            "data_situacao_cadastral": {
+                "field_type": "timestamp",
+                "position": [226, 233]
+            },
+            "codigo_situacao_cadastral": {
+                "field_type": "int",
+                "position": [234, 235]
+            },
+            "nome_cidade_exterior": {
+                "field_type": "str",
+                "position": [236, 290]
+            },
+            "codigo_pais": {
+                "field_type": "int",
+                "position": [291, 293]
+            },
+            "nome_pais": {
+                "field_type": "str",
+                "position": [294, 363]
+            },
+            "codigo_natureza_juridica": {
+                "field_type": "int",
+                "position": [364, 367]
+            },
+            "data_inicio_atividade": {
+                "field_type": "timestamp",
+                "position": [368, 375]
+            },
+            "cnae_fiscal": {
+                "field_type": "str",
+                "position": [376, 382]
+            },
+            "tipo_logradouro": {
+                "field_type": "str",
+                "position": [383, 402]
+            },
+            "logradouro": {
+                "field_type": "str",
+                "position": [403, 462]
+            },
+            "numero_logradouro": {
+                "field_type": "str",
+                "position": [463, 468]
+            },
+            "complemento": {
+                "field_type": "str",
+                "position": [469, 624]
+            },
+            "bairro": {
+                "field_type": "str",
+                "position": [625, 674]
+            },
+            "cep": {
+                "field_type": "str",
+                "position": [675, 682]
+            },
+            "uf": {
+                "field_type": "str",
+                "position": [683, 684]
+            },
+            "codigo_municipio": {
+                "field_type": "int",
+                "position": [685, 688]
+            },
+            "nome_municipio": {
+                "field_type": "str",
+                "position": [689, 738]
+            },
+            "telefone1": {
+                "field_type": "str",
+                "position": [739, 750]
+            },
+            "telefone2": {
+                "field_type": "str",
+                "position": [751, 762]
+            },
+            "fax": {
+                "field_type": "str",
+                "position": [763, 774]
+            },
+            "email": {
+                "field_type": "str",
+                "position": [775, 879]
+            },
+            "qualificacao_responsavel": {
+                "field_type": "int",
+                "position": [890, 891]
+            },
+            "capital_social": {
+                "field_type": "float",
+                "position": [892, 905]
+            },
+            "porte_empresa": {
+                "field_type": "str",
+                "position": [906, 907]
+            },
+            "optante_simples": {
+                "field_type": "str",
+                "position": [908, 908]
+            },
+            "data_opcao_simples": {
+                "field_type": "timestamp",
+                "position": [909, 916]
+            },
+            "data_exclusao_simples": {
+                "field_type": "timestamp",
+                "position": [917, 924]
+            },
+            "optante_mei": {
+                "field_type": "str",
+                "position": [925, 925]
+            },
+            "situacao_especial": {
+                "field_type": "str",
+                "position": [926, 948]
+            },
+            "data_situacao_especial": {
+                "field_type": "timestamp",
+                "position": [949, 956]
+            }
+        }
+    },
+    {
+        "type": "2",
+        "document": {
+            "_id": {
+                "field_type": "str",
+                "position": [4, 17]
+            },
+            "identificacao": {
+                "field_type": "int",
+                "position": [18, 18]
+            },
+            "nome": {
+                "field_type": "str",
+                "position": [19, 168]
+            },
+            "documento": {
+                "field_type": "str",
+                "position": [169, 182]
+            },
+            "codigo_qualificacao": {
+                "field_type": "str",
+                "position": [183, 184]
+            },
+            "data_entrada": {
+                "field_type": "timestamp",
+                "position": [190, 197]
+            },
+            "cpf_repr_legal": {
+                "field_type": "str",
+                "position": [271, 281]
+            },
+            "nome_repr_legal": {
+                "field_type": "str",
+                "position": [282, 341]
+            },
+            "codigo_qualificacao_rpr": {
+                "field_type": "str",
+                "position": [342, 343]
+            }
+        }
+    },
+    {
+        "type": "6",
+        "document": {
+            "_id": {
+                "field_type": "str",
+                "position": [4, 17]
+            },
+            "cnaes_secundarios": {
+                "field_type": "str",
+                "position": [18, 710]
+            }
+        }
+    }
+]

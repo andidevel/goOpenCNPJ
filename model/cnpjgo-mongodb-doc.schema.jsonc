@@ -1,0 +1,76 @@
+// Collections
+[
+    {
+        "collection_name": "base_empresas",
+        "document": {
+            "_id": "str(8)", // CNPJ base
+            "razao_social": "str(150)",
+            "qualificacao_responsavel": "int",
+            "codigo_natureza_juridica": "int",
+            "capital_social": "float",
+            "porte_empresa": "str(2)",
+            "ente_federativo": "str"
+        }
+    },
+    {
+        "collection_name": "empresas",
+        "document": {
+            "_id": "str(14)",  // CNPJ
+            "empresa_base_id": "str(8)", // CNPJ base
+            "id_matriz": "int", // Identificador 1-Matriz, 2-Filial
+            "nome_fantasia": "str(55)",
+            "situacao_cadastral": "int", // 01-Nula, 02-Ativa, 03-Suspensa, 04-Inapta, 08-Baixada
+            "data_situacao_cadastral": "datetime",
+            "codigo_situacao_cadastral": "int", // See docs/MotivoSituacaoCadastral-UTF8.csv
+            "motivo_situacao_cadastral": "str(83)",    // See docs/MotivoSituacaoCadastral-UTF8.csv
+            "nome_cidade_exterior": "str(55)",
+            "codigo_pais": "int",
+            "nome_pais": "str(70)",
+            "data_inicio_atividade": "datetime",
+            "cnae_fiscal": "str(7)",
+            "cnaes_secundarios": [
+                "str(7)"
+            ],
+            "grau_risco": "str(1)",
+            "tipo_logradouro": "str(20)",
+            "logradouro": "str(60)",
+            "numero_logradouro": "str(6)",
+            "complemento": "str(156)",
+            "bairro": "str(50)",
+            "cep": "str(8)",
+            "uf": "str(2)",
+            "codigo_municipio": "int",
+            "nome_municipio": "str(50)",
+            "ddd1": "str(5)",
+            "telefone1": "str(12)",
+            "ddd2": "str(5)",
+            "telefone2": "str(12)",
+            "ddd_fax": "str(5)",
+            "fax": "str(12)",
+            "email": "str(115)",
+            "situacao_especial": "str(23)",
+            "data_situacao_especial": "datetime"
+        }
+    },
+    {
+        "collection_name": "situacao_motivos",
+        "document": {
+            "_id": "int",
+            "motivo": "str(83)"
+        }
+    },
+    {
+        "collection_name": "graus_risco",
+        "document":{
+            "_id": "str(7)",
+            "grau_risco": "str(2)"
+        }
+    },
+    {
+        "collection_name": "parameters",
+        "document": {
+            "_id": "parameter name",
+            "value": "parameter value"
+        }
+    }
+]

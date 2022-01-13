@@ -1,0 +1,9 @@
+# Editors
+**/.vscode
+
+# Build
+/build/
+/dist/
+
+# Env
+.env

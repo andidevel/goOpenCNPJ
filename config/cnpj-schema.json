@@ -1,0 +1,160 @@
+[
+    {
+        "type": "0",
+        "document": {
+            "_id": {
+                "field_type": "str",
+                "position": 0
+            },
+            "razao_social": {
+                "field_type": "str",
+                "position": 1
+            },
+            "codigo_natureza_juridica": {
+                "field_type": "int",
+                "position": 2
+            },
+            "qualificacao_responsavel": {
+                "field_type": "int",
+                "position": 3
+            },
+            "capital_social": {
+                "field_type": "float",
+                "position": 4
+            },
+            "porte_empresa": {
+                "field_type": "int",
+                "position": 5
+            },
+            "ente_federativo": {
+                "field_type": "str",
+                "position": 6
+            }
+        }
+    },
+    {
+        "type": "1",
+        "document": {
+            "empresa_base_id": {
+                "field_type": "str",
+                "position": 0
+            },
+            "id_ordem": {
+                "field_type": "str",
+                "position": 1
+            },
+            "id_dv": {
+                "field_type": "str",
+                "position": 2
+            },
+            "id_matriz": {
+                "field_type": "int",
+                "position": 3
+            },
+            "nome_fantasia": {
+                "field_type": "str",
+                "position": 4
+            },
+            "situacao_cadastral": {
+                "field_type": "int",
+                "position": 5
+            },
+            "data_situacao_cadastral": {
+                "field_type": "timestamp",
+                "position": 6
+            },
+            "codigo_situacao_cadastral": {
+                "field_type": "int",
+                "position": 7
+            },
+            "nome_cidade_exterior": {
+                "field_type": "str",
+                "position": 8
+            },
+            "codigo_pais": {
+                "field_type": "int",
+                "position": 9
+            },
+            "data_inicio_atividade": {
+                "field_type": "timestamp",
+                "position": 10
+            },
+            "cnae_fiscal": {
+                "field_type": "str",
+                "position": 11
+            },
+            "cnaes_secundarios": {
+                "field_type": "str",
+                "position": 12
+            },
+            "tipo_logradouro": {
+                "field_type": "str",
+                "position": 13
+            },
+            "logradouro": {
+                "field_type": "str",
+                "position": 14
+            },
+            "numero_logradouro": {
+                "field_type": "str",
+                "position": 15
+            },
+            "complemento": {
+                "field_type": "str",
+                "position": 16
+            },
+            "bairro": {
+                "field_type": "str",
+                "position": 17
+            },
+            "cep": {
+                "field_type": "str",
+                "position": 18
+            },
+            "uf": {
+                "field_type": "str",
+                "position": 19
+            },
+            "codigo_municipio": {
+                "field_type": "int",
+                "position": 20
+            },
+            "ddd1": {
+                "field_type": "str",
+                "position": 21
+            },
+            "telefone1": {
+                "field_type": "str",
+                "position": 22
+            },
+            "ddd2": {
+                "field_type": "str",
+                "position": 23
+            },
+            "telefone2": {
+                "field_type": "str",
+                "position": 24
+            },
+            "ddd_fax": {
+                "field_type": "str",
+                "position": 25
+            },
+            "fax": {
+                "field_type": "str",
+                "position": 26
+            },
+            "email": {
+                "field_type": "str",
+                "position": 27
+            },
+            "situacao_especial": {
+                "field_type": "str",
+                "position": 28
+            },
+            "data_situacao_especial": {
+                "field_type": "timestamp",
+                "position": 29
+            }
+        }
+    }
+]
